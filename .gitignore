@@ -6,3 +6,5 @@ Makefile
 build
 *.ppm
 compile_commands.json
+glad
+glfw

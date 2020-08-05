@@ -5,18 +5,18 @@
 
 
 struct Color {
-  int r;
-  int g;
-  int b;
+  float r;
+  float g;
+  float b;
 };
 
 
 using ColorFunction=Color (*)(double);
 
 
-class Mandlebrot {
+class Mandelbrot {
   public:
-    Mandlebrot(ColorFunction color_f, int max_iter, float bound);
+    Mandelbrot(ColorFunction color_f, int max_iter, float bound);
 
     Color get_color(double x, double y);
 
